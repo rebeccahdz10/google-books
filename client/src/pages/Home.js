@@ -32,7 +32,7 @@ class Home extends Component {
             .catch(() =>
                 this.setState({
                     books: [],
-                    message: "No New Books Found, Try a Different Query"
+                    message: "No New Books Found, Try a Different Search my Dude."
                 })
             );
     };
@@ -98,7 +98,7 @@ class Home extends Component {
                                                     className="btn btn-primary ml-2"
                                                 >
                                                     Save
-                        </button>
+                                                </button>
                                             )}
                                         />
                                     ))}

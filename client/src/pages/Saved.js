@@ -63,7 +63,7 @@ class Saved extends Component {
                                                     className="btn btn-danger ml-2"
                                                 >
                                                     Delete
-                        </button>
+                                                </button>
                                             )}
                                         />
                                     ))}
