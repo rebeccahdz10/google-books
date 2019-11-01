@@ -35,7 +35,7 @@ class Nav extends Component {
             <nav className="navbar navbar-expand-lg navbar-light mb-2">
                 <Link className="navbar-brand" to="/">
                     Google Books
-        </Link>
+                </Link>
                 <button
                     onClick={this.toggleNav}
                     className="navbar-toggler"
@@ -56,7 +56,7 @@ class Nav extends Component {
                                 to="/"
                             >
                                 Search
-              </Link>
+                            </Link>
                         </li>
                         <li className="nav-item">
                             <Link
@@ -65,7 +65,7 @@ class Nav extends Component {
                                 to="/saved"
                             >
                                 Saved
-              </Link>
+                            </Link>
                         </li>
                     </ul>
                 </div>
